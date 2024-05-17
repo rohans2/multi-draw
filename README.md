@@ -28,3 +28,15 @@ export default {
 - Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
 - Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
 - Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+
+### TODO - 
+- [ ] Figure out deployment
+- [ ] how to scale to multiple users
+- [ ] generate new instance for each user
+- [ ] add qr code for sharing
+- [ ] invite via email
+- [ ] read only access
+- [ ] initialize database (supabase realtime or any other) to store the changes in db and share to other users, currently done using web sockets
+- [ ] Signup/ signin
+- [ ] improve the share panel UI
